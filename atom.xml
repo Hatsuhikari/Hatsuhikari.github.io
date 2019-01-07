@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangfana.cn/"/>
-  <updated>2019-01-01T13:06:38.607Z</updated>
+  <updated>2019-01-07T07:15:31.566Z</updated>
   <id>http://zhangfana.cn/</id>
   
   <author>
@@ -21,12 +21,16 @@
     <link href="http://zhangfana.cn/2019/01/01/%E6%B5%8B%E8%AF%95hexo/"/>
     <id>http://zhangfana.cn/2019/01/01/测试hexo/</id>
     <published>2019-01-01T13:06:38.000Z</published>
-    <updated>2019-01-01T13:06:38.607Z</updated>
+    <updated>2019-01-07T07:15:31.566Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="ccc" scheme="http://zhangfana.cn/categories/ccc/"/>
+    
+    
+      <category term="aaa" scheme="http://zhangfana.cn/tags/aaa/"/>
     
   </entry>
   
