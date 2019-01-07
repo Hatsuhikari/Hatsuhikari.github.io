@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://zhangfana.cn/"/>
   <updated>2019-01-01T13:06:38.607Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://zhangfana.cn/</id>
   
   <author>
     <name>zhangfan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>测试hexo</title>
-    <link href="http://yoursite.com/2019/01/01/%E6%B5%8B%E8%AF%95hexo/"/>
-    <id>http://yoursite.com/2019/01/01/测试hexo/</id>
+    <link href="http://zhangfana.cn/2019/01/01/%E6%B5%8B%E8%AF%95hexo/"/>
+    <id>http://zhangfana.cn/2019/01/01/测试hexo/</id>
     <published>2019-01-01T13:06:38.000Z</published>
     <updated>2019-01-01T13:06:38.607Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/01/01/hello-world/"/>
-    <id>http://yoursite.com/2019/01/01/hello-world/</id>
+    <link href="http://zhangfana.cn/2019/01/01/hello-world/"/>
+    <id>http://zhangfana.cn/2019/01/01/hello-world/</id>
     <published>2019-01-01T12:28:30.493Z</published>
     <updated>2019-01-01T12:28:30.494Z</updated>
     
