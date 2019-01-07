@@ -1983,7 +1983,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #81ff83;
+  background: #09ff73;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3101,7 +3101,4 @@ keyframes heartAnimate 70% {
 }
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
-}
-.with-love {
-  color: #ff7171;
 }
