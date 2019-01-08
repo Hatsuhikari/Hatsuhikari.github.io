@@ -596,12 +596,12 @@
           
           
 
-          <div id="xins"></div>
+          <div id="days"></div>
+<div id="xins"></div>
 <script language="javascript">
 function show_date_time(){
 window.setTimeout("show_date_time()", 1000);
 BirthDay=new Date("01/01/2019 19:00:00");
-fDay=new Date("12/21/2015 12:00:00");
 today=new Date();
 timeold=(today.getTime()-BirthDay.getTime());
 sectimeold=timeold/1000
@@ -615,18 +615,22 @@ e_minsold=(e_hrsold-hrsold)*60;
 minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
 seconds=setzero(Math.floor((e_minsold-minsold)*60));
 
-told = (today.getTime()-fDay.getTime());
-sold = told/1000
-edold = told/msPerDay
-d2 = Math.floor(edold);
-ehold = (edold-d2)*24;
-h2 = setzero(Math.floor(ehold));
-emold = (ehold-h2)*60;
-m2 = setzero(Math.floor((ehold-h2)*60));
-s2 = setzero(Math.floor.((emold-m2)*60));
+BirthDay2=new Date("12/21/2015 12:00:00");
+today2=today
+timeold2=(today2.getTime()-BirthDay2.getTime());
+sectimeold2=timeol2/1000
+secondsold2=Math.floor(sectimeold2);
+msPerDay2=24*60*60*1000
+e_daysold2=timeold2/msPerDay2
+daysold2=Math.floor(e_daysold2);
+e_hrsold2=(e_daysold2-e_daysold2)*24;
+hrsold2=setzero(Math.floor(e_hrsold2));
+e_minsold2=(e_hrsold2-hrsold2)*60;
+minsold2=setzero(Math.floor((e_hrsold2-hrsold2)*60));
+seconds2=setzero(Math.floor((e_minsold2-minsold2)*60));
 
-// document.getElementById('days').innerHTML="Run for "+daysold+" Days "+hrsold+" Hours "+minsold+" m "+seconds+" s";
-document.getElementById('xins').innerHTML="Love xiaoning "+d2+" Days "+h2+" Hours "+m2+" m "+s2+" s"+" <span class='with-love' id='heart'><i class='fa fa-heart'></i></span>";
+document.getElementById('days').innerHTML="Run for "+daysold+" Days "+hrsold+" Hours "+minsold+" m "+seconds+" s";
+document.getElementById('xins').innerHTML="Love xiaoning "+daysold2+" Days "+hrsold2+" Hours "+minsold2+" m "+seconds2+" s"+" <span class='with-love' id='heart'><i class='fa fa-heart'></i></span>";
 }
 function setzero(i){
 if (i<10)
