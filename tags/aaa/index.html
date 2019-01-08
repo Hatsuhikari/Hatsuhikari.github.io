@@ -541,8 +541,7 @@
           
           
 
-          <div id="days"></div>
-<div id="xins"></div>
+          <div id="xins"></div>
 <script language="javascript">
 function show_date_time(){
 window.setTimeout("show_date_time()", 1000);
@@ -571,7 +570,7 @@ emold = (ehold-h2)*60;
 m2 = setzero(Math.floor((ehold-h2)*60));
 s2 = setzero(Math.floor.((emold-m2)*60));
 
-document.getElementById('days').innerHTML="Run for "+daysold+" Days "+hrsold+" Hours "+minsold+" m "+seconds+" s";
+// document.getElementById('days').innerHTML="Run for "+daysold+" Days "+hrsold+" Hours "+minsold+" m "+seconds+" s";
 document.getElementById('xins').innerHTML="Love xiaoning "+d2+" Days "+h2+" Hours "+m2+" m "+s2+" s"+" <span class='with-love' id='heart'><i class='fa fa-heart'></i></span>";
 }
 function setzero(i){
