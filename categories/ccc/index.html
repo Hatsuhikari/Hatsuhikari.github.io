@@ -561,23 +561,23 @@ e_minsold=(e_hrsold-hrsold)*60;
 minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
 seconds=setzero(Math.floor((e_minsold-minsold)*60));
 
-// BirthDay2=new Date("12/21/2015 12:00:00");
-// today2=today
-// timeold2=(today2.getTime()-BirthDay2.getTime());
-// sectimeold2=timeol2/1000
-// secondsold2=Math.floor(sectimeold2);
-// msPerDay2=24*60*60*1000
-// e_daysold2=timeold2/msPerDay2
-// daysold2=Math.floor(e_daysold2);
-// e_hrsold2=(e_daysold2-e_daysold2)*24;
-// hrsold2=setzero(Math.floor(e_hrsold2));
-// e_minsold2=(e_hrsold2-hrsold2)*60;
-// minsold2=setzero(Math.floor((e_hrsold2-hrsold2)*60));
-// seconds2=setzero(Math.floor((e_minsold2-minsold2)*60));
+BirthDay2=new Date("12/21/2015 12:00:00");
+today2=today
+timeold2=(today2.getTime()-BirthDay2.getTime());
+sectimeold2=timeold2/1000
+secondsold2=Math.floor(sectimeold2);
+msPerDay2=24*60*60*1000
+e_daysold2=timeold2/msPerDay2
+daysold2=Math.floor(e_daysold2);
+e_hrsold2=(e_daysold2-e_daysold2)*24;
+hrsold2=setzero(Math.floor(e_hrsold2));
+e_minsold2=(e_hrsold2-hrsold2)*60;
+minsold2=setzero(Math.floor((e_hrsold2-hrsold2)*60));
+seconds2=setzero(Math.floor((e_minsold2-minsold2)*60));
 
 document.getElementById('days').innerHTML="Run for "+daysold+" Days "+hrsold+" Hours "+minsold+" m "+seconds+" s";
-// document.getElementById('xins').innerHTML="Love xiaoning "+daysold2+" Days "+hrsold2+" Hours "+minsold2+" m "+seconds2+" s"+" <span class='with-love' id='heart'><i class='fa fa-heart'></i></span>";
-// }
+document.getElementById('xins').innerHTML="Love xiaoning "+daysold2+" Days "+hrsold2+" Hours "+minsold2+" m "+seconds2+" s"+" <span class='with-love' id='heart'><i class='fa fa-heart'></i></span>";
+}
 function setzero(i){
 if (i<10)
 {i="0" + i};
@@ -1194,5 +1194,5 @@ show_date_time();
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true}});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":75,"height":150},"mobile":{"show":true}});</script></body>
 </html>
